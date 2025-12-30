@@ -1,11 +1,11 @@
- # For loop
- fruits = ['Apple' , 'Peach' , 'Mango']
- for fruit in fruits:
+# For loop
+fruits = ['Apple' , 'Peach' , 'Mango']
+for fruit in fruits:
     print(fruit) #it will print each item one by one.
 
 # Sum Functions.
 student_scores = [150, 142, 185, 120, 171, 184, 149, 24, 59, 68, 199, 78, 65, 89, 86]
-total_exam_score = sum(student_score)
+total_exam_score = sum(student_scores)
 print(total_exam_score)
 
 # Sum using For Loop.
@@ -26,7 +26,7 @@ for score in student_scores:
         max_num = score
 print(max_num)
 
-For Loop using Range Funtion.
+#For Loop using Range Funtion.
 for num in range(1, 10):
     print(num)
 
